@@ -45,3 +45,5 @@ Após cada bloco de teste, adicione um comentário explicando:
 # FORMATO DE SAÍDA
 
 Scripts de teste em Java com Junit com comentários explicativos após cada bloco de teste. Atualize o pom.xml ou arquivo equivalente para viabilizar a execucao do Playright.
+    
+https://mvnrepository.com/artifact/com.microsoft.playwright/playwright
