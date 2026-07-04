@@ -31,9 +31,9 @@ da classe recebida, priorizando:
 - Para cada branch não coberto, identifique a condição responsável
   (`if/else`, `switch`, operador ternário, curto-circuito `&&`/`||`).
 - Não remova nem reescreva os testes existentes.
-- Use JUnit e Mockito para mockar dependências externas.
+- Use JUnit e Mockito para mockar dependências externas quando estritamente necessário. Nunca "mockar" o assunto do teste, apenas dependencias.
 - Use o padrão AAA (Arrange-Act-Assert) em todos os testes.
-- Mire em uma quantidade mínima de ao menos 80% de cobertura, caso o projeto já possua o minimo, tente aumentar mesmo assim.
+- Mire em uma quantidade mínima de ao menos 80% de cobertura de branch, caso o projeto já possua o minimo, tente aumentar mesmo assim.
 
 # CAMADA DE EXPLICABILIDADE
 
@@ -43,6 +43,8 @@ No Javadoc de cada novo método de teste, informe obrigatoriamente:
    (ex.: `"linha 42, branch false"`).
 2. A condição lógica responsável pelo branch identificado.
 3. O ganho de cobertura esperado com a adição do teste.
+4. Quando utilizado mocks, explique na javadoc sobre o metodo a necessidade e o porque utilizado.
+5. Apos o termino da execucao, compile o javadoc caso o usuario deseje (perguntar)
 
 # FORMATO DE SAÍDA
 

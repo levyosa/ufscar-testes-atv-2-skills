@@ -25,7 +25,7 @@ funcional da classe recebida, utilizando os critérios de:
 - Análise de Valor Limite (BVA): testar os limites entre as classes
   de equivalência.
 - Apos a criacao dos testes, execute os mesmos para validar que o mesmo compila mas nao com o objetivo que ele passe necessariamente. Se for preciso, refatore o teste no maximo 5 vezes. Caso voce entre em um loop de mais de 5 tentatativas de compilacao e correcao do teste e mesmo assim ele nao compilar, peca a intervencao do usuario.
-(ex: mvn compile, nao mvn test)
+(ex: mvn compile, nunca mvn test)
 
 ## REGRAS / RESTRIÇÕES
 - Pergunte ao usuario qual a versao do Junit utilizada no projeto, ou se possivl, acesse o arquivo pom.xml ou equivalente para detectar a versao.
