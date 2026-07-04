@@ -32,6 +32,7 @@ cobrindo os fluxos principais e alternativos da funcionalidade recebida.
   na especificação recebida.
 - Use esperas explícitas (`waitFor`) em vez de esperas fixas (`sleep`).
 - Nomeie os testes descrevendo o comportamento esperado do sistema.
+- Utilizar o padrao BDD (Behavior Driven Development) e Cucumber
 
 # CAMADA DE EXPLICABILIDADE
 
@@ -43,6 +44,6 @@ Após cada bloco de teste, adicione um comentário explicando:
 
 # FORMATO DE SAÍDA
 
-Scripts de teste em JavaScript ou TypeScript utilizando o framework
+Scripts de teste em TypeScript utilizando o framework
 Playwright (`@playwright/test`), organizados em um arquivo `.spec.ts`,
 com comentários explicativos após cada bloco de teste.
